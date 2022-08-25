@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @author cristopher.ovaillos
  */
-public class JavaApplication9 {
+public class Biseccion {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double a, b, e, r;
+        double a, b, e, r=0;
         
        
         
@@ -33,17 +33,18 @@ public class JavaApplication9 {
         if ((f(a) * f(b)) < 0) {
             do {
                 r = (a + b) / 2;
-                System.out.println("valor de r "+r);
+                System.out.println(r);
                 if (f(a) * f(r) < 0) {
                     b = r;
                 } else {
                     a = r;
                 }
 
-            } while (Math.abs(f(r)) < e);
+            } while (Math.abs(f(r)) > e);
         } else {
             System.out.println("No cumple la condicion inicialf(a).f(b)<0");
         }
+        System.out.println("La raiz aproximada es:  "+r);
 
     }
 
