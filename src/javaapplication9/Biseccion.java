@@ -18,15 +18,15 @@ public class Biseccion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double a, b, e, r=0;
+        double a=(Math.PI/2), b=Math.PI, e, r=0;
         
        
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el valor de a:");
-        a = sc.nextDouble();
+//        a = sc.nextDouble();
         System.out.println("Ingrese el valor de b:");
-        b = sc.nextDouble();
+//        b = sc.nextDouble();
         System.out.println("Ingrese el valor de e:");
         e = sc.nextDouble();
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author asdf
+ * @author cristopher.ovaillos
  */
 public class simpson13 {
 
